@@ -1,6 +1,7 @@
 package su22hw1;
 import java.util.Scanner;
 
+//calculates the average when given the grades of all assignments and test
 public class Su22HW1 {
     public static void main(String[] args) {
        Scanner sc=new Scanner(System.in);
