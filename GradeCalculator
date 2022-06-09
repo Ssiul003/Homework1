@@ -18,7 +18,7 @@ public class Su22HW1 {
             midterm2=midterm2 * .20;
             finals=finals * .35;
                 average=finals + midterm2 + midterm1 + codelab + homework;
-                System.out.printf("%f\n",average);
+                System.out.printf("The total score is :%f\n",average);
     }
     
 }
