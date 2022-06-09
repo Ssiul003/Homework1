@@ -1,0 +1,19 @@
+package su22hw1;
+import java.util.Scanner;
+
+//calculates the circumference and area of a circle when given an area.
+public class Su22HW1 {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       double radius,circumference,area;
+       final double PI = 3.141592653589793;
+       System.out.println("Please enter a radius for circle");
+       radius=sc.nextDouble();
+       
+       area= PI * (radius * radius);
+       circumference= 2*PI *radius;
+       System.out.printf("When the radius is %.2f, the circumference is %.2f and the radius is %.2f\n",radius,circumference,area);
+      
+    }
+    
+}
