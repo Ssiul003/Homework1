@@ -1,0 +1,24 @@
+package su22hw1;
+import java.util.Scanner;
+
+public class Su22HW1 {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       double homework,codelab,midterm1,midterm2,finals,average;
+       System.out.println("Please printout in order of grades of "
+               + "homework, codelab, midterm1, midterm2, and final");
+       homework=sc.nextInt();
+       codelab=sc.nextInt();
+       midterm1=sc.nextInt();
+       midterm2=sc.nextInt();
+       finals=sc.nextInt();
+       homework=homework *.15;
+       codelab=codelab * .10;
+       midterm1=midterm1 * .20;
+       midterm2=midterm2 * .20;
+       finals=finals * .35;
+       average=finals + midterm2 + midterm1 + codelab + homework;
+       System.out.printf("%f\n",average);
+    }
+    
+}
