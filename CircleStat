@@ -12,7 +12,7 @@ public class Su22HW1 {
        
        area= PI * (radius * radius);
        circumference= 2*PI *radius;
-       System.out.printf("When the radius is %.2f, the circumference is %.2f and the radius is %.2f\n",radius,circumference,area);
+       System.out.printf("When the radius is %.2f, the circumference is %.2f and the area is %.2f\n",radius,circumference,area);
       
     }
     
